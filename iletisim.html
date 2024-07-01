@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+   
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="bootstrap.js"></script>
+</head>
+<body>
+    <div class="ust-kisim-sayfalar">
+        <nav class="navbar navbar-expand-lg nav-bg">
+            <div class="container p-0">
+              <a class="navbar-brand" href="index.html">
+                <img class="img-fluid logo" src="./resimler/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pozisyon">
+
+                  <li class="nav-item d-flex align-items-center p-2">
+                    <a class="nav-link" aria-current="page" href="hakkimizda.html">Hakkımızda</a>
+                    <span class="ayrac">|</span>
+                  </li>
+                  <li class="nav-item d-flex align-items-center p-2">
+                    <a class="nav-link" href="hizmetlerimiz.html">Hizmetlerimiz</a>
+                    <span class="ayrac">|</span>
+                </li>
+                <li class="nav-item d-flex align-items-center p-2">
+                  <a class="nav-link" href="portfoy.html">Portföyümüz</a>
+                  <span class="ayrac">|</span>
+                </li>
+                <li class="nav-item d-flex align-items-center p-2">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                  <span class="ayrac">|</span>
+                </li>
+                <li class="nav-item d-flex align-items-center p-2">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                  </li>
+                  
+                </ul>
+              </li>
+             </div>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex align-items-center header-yuk">
+                    <img src="resimler/logo-2.png"  class="img-fluid" alt="">
+                    <div class="sayfa-baslik ms-4">
+                        <h3>İLETİŞİM</h3>
+                        <P>Hizmetlerimiz ya da teklifler hakkında bizlerle 7/24 iletişim kurmak için aşağıdaki formu kullanabilirsiniz.</P>
+                    </div>
+               
+                </div>
+            </div>
+    </div>
+  </div>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>İletişim Formu</h4>
+            <hr>
+            <div class="mb-3">
+                <label for="adSoyad" class="form-label">Adı Soyadı</label>
+                <input type="text" class="form-control" id="adSoyad" placeholder="Adınız ve Soyadınız">
+              </div>
+            <form action=""><div class="mb-3">
+                <label for="eMail" class="form-label">Email addres</label>
+                <input type="email" class="form-control" id="eMail" placeholder="Email Adresiniz">
+              </div>
+              <div class="mb-3">
+                <label for="konu" class="form-label">Konu</label>
+                <select class="form-select" id="Konu" aria-label="Default select example">
+                    <option selected>Teklif Alma</option>
+                    <option value="1">Bilgi Edinme</option>
+                    <option value="2">Muhasebe</option>
+                    <option value="3">Bilgi İşlem</option>
+                  </select>
+              </div>
+              <div class="mb-3">
+                <label for="mesaj" class="form-label">Mesaj</label>
+                <textarea class="form-control" id="Mesaj" rows="3"></textarea>
+              </div>
+              <div class="mb-3">
+                <button class="btn btn-success btn-lg">
+                  <i class="fa-solid fa-bars-staggered me-2 simgeler"></i>
+                <i class="bi bi-envelope me-2 simgeler"></i>Gönder
+            </button>
+              </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+          <img src="resimler/iletisim.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <h4><i class="fa-solid fa-location-dot me-2"></i>Adres</h4>
+        <hr>
+        <p>
+          Kuzguncuk, Fethi Paşa Korusu No:14, 34674 Üsküdar/İstanbul</p>
+        <h4><i class="fa-solid fa-phone me-2"></i>Telefon</h4>
+        <hr>
+        <p>123456789</p>
+        <h4><i class="fa-solid fa-envelope me-2"></i>E-Mail</h4>
+        <hr>
+        <p>nurbanukayar108@gmail.com</p>
+      </div>
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.7694614761795!2d29.022481890845775!3d41.030299397469214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77cdbe5b087%3A0x55a5f973fb76ca81!2sFethipa%C5%9Fa%20Korusu!5e0!3m2!1str!2str!4v1719750448537!5m2!1str!2str" 
+        height="450px" 
+        width="100%"
+        style="border:0;" allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+</div>
+  <div class="container-fluid footer">
+    <div class="row">
+        <div class="col-md-12 footer-sutun d-flex flex-column justify-content-center align-items-center">
+            <div class="icons">
+                <i class="fa-brands fa-square-instagram fa-3x me-2"></i>
+                <i class="fa-brands fa-square-facebook fa-3x me-2"></i>
+                <i class="fa-brands fa-square-twitter fa-3x me-2"></i>
+                <i class="fa-brands fa-square-youtube fa-3x me-2"></i>
+            </div>
+           <p class="mt-3">© Copyright 2022 Tüm Hakları Saklıdır.</p>
+           <p>Tasarım Bilişim Teknoloji</p>
+     </div>
+   </div>
+  </div>
+ </body>
+</html>                                                    

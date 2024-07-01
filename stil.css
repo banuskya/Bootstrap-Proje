@@ -1,0 +1,183 @@
+.logo {
+  height: 50px;
+}
+
+.ayrac {
+  font-size: 20px;
+  margin: 0px 20px;
+  color: white;
+}
+
+.nav-bg {
+  background-color: rgba(122, 122, 122, 0.356);
+}
+
+.header-yuk {
+  height: calc(50vh - 70px);
+}
+
+.sayfa-baslik h3 {
+  color: #f4b70b;
+  font-weight: bold;
+}
+
+.sayfa-baslik p {
+  color: #ffffff;
+  font-weight: bold;
+}
+.ust-kisim {
+  background-image: url(resimler/ust-bg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ust-kisim-sayfalar {
+  background-image: url(resimler/ust-bg-2.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.nav-item a {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #f4b70b;
+}
+.navbar-toggler {
+  color: #f4b70b;
+  border: 1px solid #f4b70b;
+}
+.navbar-toggler:hover {
+  border: 1px solid #f4b70b;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media screen and (max-width: 992px) {
+  .ayrac {
+    display: none;
+  }
+  .nav-item:hover {
+    background-color: black;
+  }
+  .navbar-toggler {
+    z-index: 999;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+  }
+  .navbar-toggler:hover {
+    border: 1px solid #f4b70b;
+  }
+  .pozisyon {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4b70b;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 70px;
+  }
+}
+
+.bosluk {
+  margin-top: 500px;
+}
+
+/*TEKLİF KISMI*/
+.teklif {
+  height: 60px;
+}
+
+.tirnak {
+  color: #f4b70b;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.imza {
+  font-size: 20px;
+}
+/* HİZMETLERİMİZ */
+.hizmetlerimiz {
+  background-color: #f4b70b;
+}
+
+/* ÇALIŞANLAR */
+
+/* SLOGAN */
+.tirnak1 {
+  color: #f4b70b;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.soz {
+  font-size: 40px;
+  color: white;
+}
+
+.slogan {
+  background-image: url(/resimler/ust-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.roket-icon {
+  font-size: 150px;
+  color: white;
+}
+
+/* ÇALIŞMALARIMIZ */
+
+.calisma {
+  padding: 5px;
+  border: 1px solid transparent;
+}
+.calisma:hover {
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.calisma img {
+  height: 150px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2c3e50;
+  height: 300px;
+  color: #95a5a6;
+}
+
+.footer p {
+  font-size: 18px;
+}
+.footer-sutun {
+  height: 300px;
+}
+
+/* PÖRTFÖYÜMÜZ SAYFASI */
+.kurumsal-calisma {
+  height: 60px;
+}
+
+/* BLOG SAYFASI */
+.devam a:hover {
+  color: black !important;
+}
+
+/* İLETİŞİM SAYFASI */
+.simgeler {
+  font-size: 16px;
+}
